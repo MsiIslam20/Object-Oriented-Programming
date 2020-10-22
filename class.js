@@ -7,5 +7,5 @@ function createNewPerson(name) {
     return obj;
 }
 const saidul = createNewPerson('saidul');
-saidul.name;
-saidul.greeting();
+console.log(saidul.name);
+console.log(saidul.greeting());
