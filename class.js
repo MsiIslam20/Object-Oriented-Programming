@@ -1,11 +1,19 @@
-function createNewPerson(name) {
-    const obj = {};
-    obj.name = name;
-    obj.greeting = function() {
-      alert('Hi! I\'m ' + obj.name + '.');
-    };
-    return obj;
+class PenDrive {
+  constructor(capacity, color, price){
+      this.capacity = capacity;
+      this.color = color;
+      this.price = price;
+  }
 }
-const saidul = createNewPerson('saidul');
-console.log(saidul.name);
-console.log(saidul.greeting());
+
+const ignite = new PenDrive('36GB', 'white', 1300);
+console.log(ignite);
+const oakWood = new PenDrive('4GB', 'black');
+console.log(oakWood);
+
+function StickyNote(color, price){
+  this.color = color;
+  this.price = price;
+}
+const yellow = new StickyNote('yellow', 40);
+console.log(yellow);
