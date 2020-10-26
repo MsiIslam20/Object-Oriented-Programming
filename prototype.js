@@ -6,4 +6,4 @@ Cat.prototype.talk = function(){
 }
 const myCat = new Cat('Tiger');
 console.log(myCat);
-myCat.talk()
+myCat.talk();
