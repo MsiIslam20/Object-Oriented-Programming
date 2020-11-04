@@ -17,5 +17,5 @@ class Hero {
     }
 }
 
-const catMan = new Hero('catman', 'Deep Khamsi');
+const catMan = new Hero('IronMan', 'flying Jet');
 console.log(catMan.goForGrocery(100));
