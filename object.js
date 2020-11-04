@@ -3,5 +3,4 @@ const person = {
     job: 'Acting',
     salary: 10000
 }
-
 console.log(person);
