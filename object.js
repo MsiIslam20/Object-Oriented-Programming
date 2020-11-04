@@ -4,4 +4,4 @@ const person = {
     salary: 10000
 }
 
-// console.log(person);
+console.log(person);
